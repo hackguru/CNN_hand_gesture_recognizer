@@ -57,7 +57,7 @@ batch_size = 32
 ## Number of output classes (change it accordingly)
 ## eg: In my case I wanted to predict 4 types of gestures (Ok, Peace, Punch, Stop)
 ## NOTE: If you change this then dont forget to change Labels accordingly
-nb_classes = 5
+nb_classes = 4
 
 # Number of epochs to train (change it accordingly)
 nb_epoch = 15  #25
@@ -80,7 +80,8 @@ path2 = './imgfolder_b'
 WeightFileName = ["ori_4015imgs_weights.hdf5","bw_4015imgs_weights.hdf5","bw_2510imgs_weights.hdf5","./bw_weight.hdf5","./final_c_weights.hdf5","./semiVgg_1_weights.hdf5","/new_wt_dropout20.hdf5","./weights-CNN-gesture_skinmask.hdf5"]
 
 # outputs
-output = ["OK", "NOTHING","PEACE", "PUNCH", "STOP"]
+output = ["UP", "DOWN", "LEFT", "RIGHT"]
+#output = ["OK", "NOTHING","PEACE", "PUNCH", "STOP"]
 #output = ["PEACE", "STOP", "THUMBSDOWN", "THUMBSUP"]
 
 jsonarray = {}
