@@ -80,7 +80,7 @@ path2 = './imgfolder_b'
 WeightFileName = ["ori_4015imgs_weights.hdf5","bw_4015imgs_weights.hdf5","bw_2510imgs_weights.hdf5","./bw_weight.hdf5","./final_c_weights.hdf5","./semiVgg_1_weights.hdf5","/new_wt_dropout20.hdf5","./weights-CNN-gesture_skinmask.hdf5"]
 
 # outputs
-output = ["UP", "DOWN", "LEFT", "RIGHT"]
+output = ["DOWN", "LEFT", "RIGHT","UP"]
 #output = ["OK", "NOTHING","PEACE", "PUNCH", "STOP"]
 #output = ["PEACE", "STOP", "THUMBSDOWN", "THUMBSUP"]
 
